@@ -5,7 +5,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <meta name="description"
-          content="Hatua Zetu Foundation is a feminist-led organization founded in 2020 amid Covid to support communities in demystifying myths around Covid, creating awareness on ending violence against women and girls, and focusing on the well-being of children with autism. Later registered in 2023"/>
+          content=""/>
     <meta name="author" content=""/>
     <title>Strategic Engagements | Hatuazetufoundation</title>
     <!-- Favicon-->
@@ -38,22 +38,20 @@
         </div>
     </div>
 </nav>
-<header class="masthead">
-    <div class="container">
-        <div class="masthead-heading text-uppercase">Our Strategic Engagements</div>
-        <div class="masthead-subheading"><strong>Welcome To Hatua Zetu Foundation's Strategic Engagements Page. We have
-            a lot for you!</strong></div>
+<header class="mastheadd">
+    <div>
+        <div class="py-5 mastheadd-subheading"><strong>Our Strategic Engagements</strong></div>
+        <br>
         <a class="btn btn-primary btn-lg text-uppercase" href="#read">Read</a>
     </div>
 </header>
-
-<section class="page-section">
+<section>
     <div class="container">
-        <div class="mt-4 container">
+        <div class="mt-1 container">
 
-            <h2 id="Wezesha-Program-view" style="color: #0057E9;">1. Wezesha Program: Inclusive Education for Autistic
+            <h2 id="read" style="color: #0057E9;">1. Wezesha Program: Inclusive Education for Autistic
                 Children</h2>
-            <img src="/media/Other/autism.jpeg" alt="Autistic Children" class="img-fluid rounded mx-auto d-block mb-4">
+            <img src="/media/Other/autism.jpeg" alt="Autistic Children" style="height:500px;width:550px" class="img-fluid rounded mx-auto d-block mb-4">
             <p>
                 This program is a comprehensive initiative designed to empower and support autistic young people in
                 multiple facets of their lives. It encompasses a holistic approach, combining educational programs
@@ -70,9 +68,9 @@
                 and grow.
             </p>
 
-            <h2 id="Hatua-Zetu-Program-view" style="color: #0057E9;">2. Hatua Zetu Program: Campaign and Policy
+            <h2 style="color: #0057E9;">2. Hatua Zetu Program: Campaign and Policy
                 Advocacy</h2>
-            <img src="/media/Other/advocacy.jpg" alt="Campaign Advocacy" class="img-fluid rounded mx-auto d-block mb-4">
+            <img src="/media/Other/advocacy.jpg" alt="Campaign Advocacy" style="height:400px;width:600px" class="img-fluid rounded mx-auto d-block mb-4">
             <p>
                 The program aims at amplifying the voices of young women and girls in all diversities in policy through
                 campaign and policy advocacy. We encourage young women and girl’s participation in decision-making
@@ -87,9 +85,9 @@
                 advancing critical policy changes in the realm of SRHR and gender-based violence prevention.
             </p>
 
-            <h2 id="Udada-na-sanaa-view" style="color: #0057E9;">3. Udada na Sanaa Program: Community Education and
+            <h2 style="color: #0057E9;">3. Udada na Sanaa Program: Community Education and
                 Awareness Creation</h2>
-            <img src="/media/Other/education.jpg" alt="Community Education"
+            <img src="/media/Other/education.jpg" style="height:400px;width:600px" alt="Community Education"
                  class="img-fluid rounded mx-auto d-block mb-4">
             <p>
                 We create a safe and inclusive space for all our members to share their stories, experiences, and ideas.
@@ -107,8 +105,8 @@
                 just a dream but a lived reality.
             </p>
 
-            <h2 id="climate-justice-view" style="color: #0057E9;">4. Climate Justice</h2>
-            <img src="/media/Other/climate.jpg" alt="Climate Justice" class="img-fluid rounded mx-auto d-block mb-4">
+            <h2 style="color: #0057E9;">4. Climate Justice</h2>
+            <img src="/media/Other/climate.jpg" style="height:400px;width:600px" alt="Climate Justice" class="img-fluid rounded mx-auto d-block mb-4">
             <p>
                 This program is dedicated to elevating the voices of women and girls in our communities who bear the
                 heaviest burdens of climate change impacts, yet have made the smallest contributions to the climate
@@ -132,7 +130,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-4 text-lg-start">
-                <h4 class="container">Contact Us</h4>
+                <h4 id="contact" class="container">Contact Us</h4>
                 <a class="btn btn-dark btn-social mx-2" href="mailto:hatuazetufoundationhtz@gmail.com"
                    aria-label="Gmail"><i class="fa fa-envelope"></i></a>
                 <a class="btn btn-dark btn-social mx-2"
@@ -156,19 +154,7 @@
 <!-- Core theme JS-->
 <script src="{% static 'js/scripts.js' %}"></script>
 
-<script>
-    const blogContent = document.getElementById('blogContent');
 
-    blogContent.addEventListener('keydown', function (event) {
-        if (event.key === 'Enter') {
-            document.execCommand('insertHTML', false, '<div><br></div>');
-            event.preventDefault();
-        } else if (event.key === ' ') {
-            document.execCommand('insertText', false, '\u00A0\u00A0\u00A0\u00A0');
-            event.preventDefault();
-        }
-    });
-</script>
 
 </body>
 </html>

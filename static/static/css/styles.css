@@ -1942,6 +1942,13 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+  header.mastheadd .mastheadd-subheading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
 }
 @media (max-width: 991.98px) {
   .table-responsive-lg {
@@ -10953,6 +10960,18 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+header.mastheadd {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("/media/Banner/ban1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
@@ -10973,6 +10992,13 @@ header.masthead .masthead-heading {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
   }
+  header.mastheadd .mastheadd-subheading {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 10rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
     font-style: italic;
