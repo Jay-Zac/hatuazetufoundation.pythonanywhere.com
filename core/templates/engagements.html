@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{%load static%}
+{% block title %} Strategic Engagements {% endblock %}
+
+<!-- Strategic Engagements block content-->
+{% block content %}
+
+<!--navigation bar-->
+{% include 'minor_nav.html' %}
+
+<header class="engagements-header">
+    <div>
+        <div class="py-5 engagements-header-subheading">Our Strategic Engagements</div>
+        <br>
+        <a class="btn btn-primary btn-lg text-uppercase" href="#read">Read</a>
+    </div>
+</header>
+<section class="engagements-section">
+    <div class="row">
+
+        <div class="column">
+            <article>
+                <h2  id="read">1. Udada na Sanaa Program: Community Education and Awareness Creation</h2>
+                    <img src="{% static 'images/education.jpg' %}" alt="Community Education" class="column-figure">
+                    <p>
+                        We create a safe and inclusive space for all our members to share their stories, experiences, and ideas.
+                        Through our efforts, we continue to create a strong network and supportive environment for us all to
+                        grow, change, and create long-lasting positive impacts on our community through art. This program
+                        harnesses the power of art as a transformative tool <strong>to educate the public and challenge
+                        oppressive notions and systems that undermine women and girls.</strong>
+                    </p>
+                    <p>
+                        Through a blend of visual, performing, and digital arts, this initiative aims to spark critical
+                        strong conversations about <strong>gender equality, empowering women, and dismantling harmful
+                        stereotypes.</strong> We not only showcase the resilience and achievements of women and girls
+                        but also expose the deep-seated biases and injustices they face. By engaging diverse audiences
+                        through artistic expression, this program seeks to inspire empathy, awareness, and activism,
+                        ultimately fostering a society where gender equality is not just a dream but a lived reality.
+                    </p>
+            </article>
+        </div>
+
+        <div class="column">
+            <article>
+                 <h2>2. Wezesha Program: Inclusive Education for Autistic Children</h2>
+                <img src="{% static 'images/autism.jpeg' %}" alt="Autistic Children Image" class="column-figure">
+                <p>
+                    This program is a comprehensive initiative designed to <strong>empower and support autistic young
+                    people in multiple facets of their lives.</strong> It encompasses a holistic approach, combining
+                    educational programs tailored to their specific needs, a well-balanced feeding program to ensure
+                    their nutritional well-being, robust measures to protect them from violence and exploitation,
+                    and comprehensive sexual health and rights education to promote their autonomy and safety.
+                </p>
+                <p>
+                    Additionally, it provides essential guidance and resources to parents, helping them improve their
+                    livelihoods and become better advocates for their children. Moreover, this program aims to transform
+                    societal perceptions and attitudes towards children with disabilities, fostering inclusion and
+                    understanding within communities, ultimately creating a more inclusive and accepting environment for
+                    these exceptional young individuals. Our goal is to create an environment where every child can learn
+                    and grow.
+                </p>
+            </article>
+        </div>
+
+
+        <div class="column">
+            <article>
+                <h2>3. Hatua Zetu Program: Campaign and Policy Advocacy</h2>
+                <img src="{% static 'images/advocacy.jpg' %}" alt="Campaign Advocacy Image" class=" column-figure">
+                <p>
+                    The program aims at <strong>amplifying the voices of young women and girls in all diversities in
+                    policy through campaign and policy advocacy.</strong> We encourage young women and girl’s
+                    participation in decision-making spaces and create space for their participation at local
+                    and national level. Our primary objectives include advocating for policies related to Sexual
+                    and Reproductive Health and Rights (SRHR) and combating violence against women, with
+                    a specific focus on ending <strong>Female Genital Mutilation (FGM)</strong>.
+                </p>
+                <p>
+                    This initiative actively promotes the involvement of young women and girls in the decision-making
+                    processes, ensuring they have a meaningful role at both local and national levels. By doing so, the
+                    program seeks to foster inclusivity, gender equality, and a safer environment for women and girls while
+                    advancing critical policy changes in the realm of SRHR and gender-based violence prevention.
+                </p>
+            </article>
+        </div>
+
+         <div class="column">
+               <article>
+                    <h2>4. Climate Justice</h2>
+                        <img src="{% static 'images/education.jpg' %}" alt="Climate Justice" class="column-figure">
+                        <p>
+                            This program is dedicated to <strong>elevating the voices of women and girls in our
+                            communities who bear the heaviest burdens of climate change impacts,</strong> yet
+                            have made the smallest contributions to the climate crisis. Specifically, we create
+                            spaces for educating communities on the most effective solutions that begin with
+                            safeguarding their land, waterways, and other vital natural resources. We nurture creators
+                            and advocates on innovative climate solutions including protecting and disseminating
+                            indigenous wisdom and policy advocacy.
+                        </p>
+               </article>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

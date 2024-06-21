@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{%load static%}
+{% block title %} Blog Detail {% endblock %}
+
+<!-- Detail page block content-->
+{% block content %}
+
+<!--navigation bar-->
+{% include 'minor_nav.html' %}
+
+<!-- blog detail page header-->
+<header class="masthead">
+    <div class="container">
+        <div class="masthead-heading text-uppercase"> Our Blog Page</div>
+        <div class="masthead-subheading">Welcome To Hatua Zetu Foundation's Blog Page. We have a lot for you!</div>
+        <a class="btn btn-primary btn-lg text-uppercase" href="#read">Read</a>
+    </div>
+</header>
+
+<!--looped blogs-->
+<section id="read" class="container page-section">
+    <div class="container">
+        <div class="modal-body" contenteditable="true" id="blogContent">
+            <h2 class="text-uppercase">{{ blog.title }}</h2>
+            <img class="img-fluid d-block mx-auto" src="{{ blog.thumbnail_url }}" alt="Blog Image">
+            <p class="detail-body-content py-3">{{ blog.content }}</p>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
